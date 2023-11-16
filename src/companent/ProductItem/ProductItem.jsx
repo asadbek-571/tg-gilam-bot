@@ -10,7 +10,7 @@ const ProductItem = ({product, className, onAdd}) => {
 
     return (
         <div className={'product ' + className}>
-            <div className={'img'}><img width={100} src="https://stirka-kovrov.uz/wp-content/uploads/2021/02/kover.jpg" alt="img"/></div>
+            <div className={'img'}><img src="https://stirka-kovrov.uz/wp-content/uploads/2021/02/kover.jpg" alt="img"/></div>
             <div className={'title'}>{product.title}</div>
             <div className={'description'}>{product.description}</div>
             <div className={'price'}>
