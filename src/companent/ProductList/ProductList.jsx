@@ -7,8 +7,8 @@ import { useEffect} from "react";
 const products = [
     {id: '1', title: '2 x 2', price: 5000, description: "Gilam yuvish haqida ma'lumot"},
     {id: '1', title: '10 x 2', price: 10000, description: "Gilam yuvish haqida ma'lumot"},
-    {id: '1', title: '5 x 5', price: 5000, description: "Gilam yuvish haqida ma'lumot"},
-    {id: '1', title: '7 x 2', price: 5000, description: "Gilam yuvish haqida ma'lumot"},
+    {id: '1', title: '5 x 5', price: 5500, description: "Gilam yuvish haqida ma'lumot"},
+    {id: '1', title: '7 x 2', price: 3000, description: "Gilam yuvish haqida ma'lumot"},
 ]
 
 const getTotalPrice = (items = []) => {
